@@ -1,0 +1,20 @@
+nome tabella: concessionario
+
+
+id - intero - MEDIUMINT - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOT NULL
+marca_auto - stringa - VARCHAR(20) - UNIQUE - NOT NULL
+kilometraggio - float - FLOAT(4,1) - NOT NULL
+anno_di_produzione - YEAR - NOT NULL
+colore - stringa - VARCHAR(15) - NOT NULL
+tipo_di_cambio - stringa - VARCHAR(15) - NOT NULL
+tipo_di_alimentazione - stringa - VARCHAR(6) - NOT NULL
+tipo_antifurto - stringa - VARCHAR(20) - NOT NULL 
+numero_proprietari_precedenti - intero - TINYINT - NOT NULL
+certificazione_di_revisione - booleano(TINYINT) - NOT NULL 
+impianto_audio - booleano(TINYINT) - NULL  
+stato_generale_auto - stringa - TEXT - NOT NULL
+accessori_aggiuntivi - stringa - VARCHAR(155) - NOT NULL
+potenza_motore - stringa - VARCHAR(15) - NOT NULL  
+prezzo_di_vendita - float - FLOAT(9,2) - NOT NULL 
+
+
